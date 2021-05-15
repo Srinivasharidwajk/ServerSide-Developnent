@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="739da1c0-0877-4ec7-824d-8495d4e2a634" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1iVQnoprpgaQ5m0dxxSigE9Wpen" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React_JS_Online_Evening_2020/React-Basics-Module/first-app" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\17-express-js-REST-API-Employee-Portal\router" />
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\17-express-js-REST-API-Employee-Portal" />
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\16-express-routing-bootstrap\views" />
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\16-express-routing-bootstrap\public\images" />
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\16-express-routing-bootstrap\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\14-node-js-with-routing-optimized\views" />
+      <recent name="D:\Workspace\Angular_Online_Evening_2020\ServerSide-Developnent\13-node-js-with-routing\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="739da1c0-0877-4ec7-824d-8495d4e2a634" name="Default Changelist" comment="" />
+      <created>1601990448777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601990448777</updated>
+      <workItem from="1601990453169" duration="3368000" />
+      <workItem from="1602074233601" duration="6277000" />
+      <workItem from="1602160434076" duration="5977000" />
+      <workItem from="1602505925753" duration="6972000" />
+      <workItem from="1602589311121" duration="2791000" />
+      <workItem from="1602594900580" duration="3508000" />
+      <workItem from="1602678768813" duration="6508000" />
+      <workItem from="1603197238363" duration="4328000" />
+      <workItem from="1603283675853" duration="6139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+</project>

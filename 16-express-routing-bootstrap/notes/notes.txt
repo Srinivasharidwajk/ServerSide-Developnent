@@ -1,0 +1,81 @@
+Node JS
+--------
+-> no clear separation of requests
+-> no clear functions support for responses -> end()
+-> no separete css file for styles
+-> no Template Engine Support -> DOM at server side
+
+	Ex: EJS , PUG , JADE -> .ejs , .pug , .jade
+
+Express JS
+----------
+-> its a node js npm module for creattion of server side applicaiton runs on node js
+-> npm install express
+-> "package.json" -> npm init -yes
+
+-> HTTP Protocal ->
+
+	GET -> to receive a data from server -> READ
+	POST -> to post a data to server  -> CREATE
+	PUT -> to update any data at server -> UPDATE
+	DELETE -> to delete any data at server -> DELETE
+
+-> 	app.get('/'); -> GET
+-> 	app.post('/'); -> POST
+-> 	app.put('/'); -> PUT
+-> 	app.delete('/'); -> DELETE
+
+-> Express Router configuration
+
+-> clear separation of responses
+	-> html Tag -> response.send()
+	-> complete HTML Page -> response.sendFile(path)
+	-> json response -> response.json(obj)
+	-> download files -> response.download()
+
+-> no separete css file for styles / static files / images
+-> Template Engine Support -> DOM at server side
+
+	Ex: EJS , PUG , JADE -> .ejs , .pug , .jade
+
+-> Start Express Server -> nodemon server.js
+
+-> npm start -> package.json -> "start" script
+	"scripts": {
+		"start": "nodemon server.js",
+	  }
+
+-> node app.js -> nodemon app.js -> npm start
+
+-> Express Routing with Bootstrap
+
+	-> express , dotenv , bootstrap
+
+-> Bootstrap
+------------
+-> CSS files
+	-> font-awesome.css
+	-> bootstrap.css
+	-> mdb.css
+	-> styles.css
+
+-> JS files
+	-> jquery.js
+	-> popper.js
+	-> bootstrap.js
+	-> mdb.js
+
+-> public -> for static files
+-> views -> for html files
+-> server.js -> main server file
+-> router -> for routing logic
+-> package.json -> for configuration of app
+-> node_modules -> for npm modules path
+
+REST API -> CRUD -> BigBasket -> TEST - Postman / Insomnia
+
+
+
+
+
+

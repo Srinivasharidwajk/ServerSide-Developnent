@@ -1,0 +1,111 @@
+Oracle DB           Mongo DB
+------------    ---------------
+database           database
+tables			   collections -> [{} , {}]	
+rows               documents -> {} -> values
+columns            fields -> {} -> keys / props
+
+Installation & Server Startup
+-----------------------------
+-> issues
+------------
+1) 'mongo' is not recognized as internal or external command
+	
+	Solution : need to setup the Env variables -> path 
+	
+2) connection failed / failed to connect to MongoDB
+		
+	Solution : Start MongoDB Windows Service -> "services.msc"
+	
+Database operations (CRUD)
+--------------------------
+1) Command Line (DBA)
+2) Website (Developer) -> NET -> MongoDB
+
+Database : hcl_db
+Table : employees
+CRUD : 
+show dbs
+use hcl_db
+db.createCollection('employees');	
+show collections
+
+CREATE OPERATION
+-----------------	
+db.employees.insertOne({
+	name : 'Rajan',
+	age : 25,
+	designation : 'Software Engineer',
+	location : 'Bangalore',
+	isActive : true
+});	
+
+db.employees.insertOne({
+	name : 'Mahesh',
+	age : 30,
+	designation : 'Team Lead',
+	location : 'Bangalore',
+	isActive : false
+});
+
+db.employees.insertMany([
+	{
+		name : 'John',
+		age : 45,
+		designation : 'Project Manager',
+		location : 'Hyderabad',
+		isActive : true
+	},
+	{
+		name : 'Wilson',
+		age : 55,
+		designation : 'Group Manager',
+		location : 'Hyderabad',
+		isActive : false
+	}
+]);
+	
+READ Operation
+--------------	
+db.employees.find();	
+db.employees.find().pretty();	
+db.employees.find({ name : 'Rajan'});
+db.employees.find({ _id : ObjectId("5f8ee7e20b2afef12c63a061")}).pretty();
+
+UPDATE Operation
+----------------
+db.employees.updateOne({_id : ObjectId("5f8ee7e20b2afef12c63a061")} , {
+	$set : {
+		age : 28,
+		designation : 'Sr.Software Engineer',
+	}
+});	
+	
+db.employees.updateOne({name : 'John'} , {
+	$set : {
+		location : 'Chennai',
+	}
+});		
+
+DELETE Operation
+----------------
+db.employees.deleteOne({_id : ObjectId("5f8ee7e20b2afef12c63a061")});
+db.employees.deleteOne({_id : ObjectId("5f8ee8340b2afef12c63a062")});
+
+MongoDB Compass (GUI Environment)
+---------------------------------	
+	
+	mongodb://127.0.0.1:27017
+	
+	
+	
+	BigBasket Application (CRUD)
+	-----------------------------
+	
+	
+	
+	
+	
+	
+	
+	
